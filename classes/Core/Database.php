@@ -5,7 +5,7 @@ class Database
 	const name = 'testDb';
 
 	private $db;
-
+	
 	public function init()
 	{
 		$this->db = new PDO('sqlite:'.self::name.'.db', '', '', [
